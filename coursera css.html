@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment</title>
+    <style>
+        /* Reset some default styles */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif; /* Optional */
+}
+
+header {
+    background-color: #333; /* Header background color */
+    color: #fff; /* Header text color */
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2rem; /* 75% larger than the default font size */
+}
+
+/* Section styling */
+.section {
+    border: 1px solid #000; /* 1px black border */
+    margin: 10px; /* Horizontal spacing between sections */
+    float: left; /* To create a horizontal layout */
+    width: calc(33.33% - 20px); /* Equal width for three sections */
+    box-sizing: border-box; /* Include borders in the width calculation */
+    position: relative; /* For positioning the section title */
+    background-color: #f0f0f0; /* Section background color */
+}
+
+/* Section title styling */
+.section-title {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #666; /* Section title background color */
+    color: #fff; /* Section title text color */
+    padding: 5px 10px;
+    font-size: 1.25rem; /* 25% larger than the default font size */
+}
+
+/* Section content styling */
+.section-content {
+    padding: 20px; /* Spacing between text and section edges */
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Page Heading</h1>
+    </header>
+    <section class="section">
+    <section class="section">
+        <div class="section-title">Chicken</div>
+        <div class="section-content">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+    </section>
+    <section class="section">
+        <div class="section-title">Beef</div>
+        <div class="section-content">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+    </section>
+    <section class="section">
+        <div class="section-title">Sushi</div>
+        <div class="section-content">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+    </section>
+</body>
+</html>
